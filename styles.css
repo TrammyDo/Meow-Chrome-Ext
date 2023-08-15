@@ -1,0 +1,35 @@
+.title {
+    text-align: center;
+    background-color: #FFF6DC;
+    color: #9E9FA5;
+}
+.soundboard {
+    width: 500px;
+    height: 250px;
+    background-color: #FFC6AC;
+}
+.buttons {
+    padding: 8px 14px;
+    text-transform: uppercase;
+    font-weight: 500;
+    border-radius: 50% 20% / 10% 40%;
+    border: 0px;
+    background-color: #FFF6DC;
+    color: #C4C1A4;
+    width: 100px;
+    height: 70px;
+    text-align: center;
+}
+.buttons:hover {
+    background: hsl(10, 34%, 67%);
+    transition: 0.3s;
+}
+table {
+    border-spacing: 30px;
+    margin-left: 40px;
+}
+img {
+    width: 25px;
+    height: 20px;
+    margin-top: 10px;
+}

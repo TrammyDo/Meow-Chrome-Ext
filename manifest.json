@@ -1,24 +1,15 @@
 {
-    "manifest_version": 2,
+    "manifest_version": 3,
     "name": "Meow",
-    "description": "Upon opening a new tab in Google, a meow sound will play",
+    "description": "A soundboard to allow users to play a variety of cat meows and noises!",
     "version": "1.0",
-    "background": {
-        "scripts": ["background.js"]
+    "action": {
+        "default_popup": "soundBoard.html",
+        "default_title": "Cat Soundboard"
     },
-    "permissions": [
-        "tabs"
-    ],
     "icons": {
         "16": "/images/catPaw.png",
         "48": "/images/catPaw.png",
         "128": "/images/catPaw.png"
-    },
-    "page_action": {
-        "default_icon": {
-            "16": "/images/catPaw.png",
-            "48": "/images/catPaw.png",
-            "128": "/images/catPaw.png"
-        }
     }
 }
